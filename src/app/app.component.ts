@@ -10,9 +10,7 @@ import { OtpService } from './otp.service';
 })
 export class AppComponent implements OnInit{
 
-  constructor(
-    private otpService:OtpService
-  ){}
+  constructor(){}
 
   ngOnInit(): void {
     
